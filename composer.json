@@ -1,0 +1,28 @@
+{
+    "name": "goreply/phpstan-doctrine-ciphersweet",
+    "type": "phpstan-extension",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "phpstan/phpstan": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "GoReply\\PHPStanDoctrineCiphersweet\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "phpstan": {
+            "includes": [
+                "extension.neon"
+            ]
+        }
+    },
+    "require-dev": {
+        "goreply/doctrine-ciphersweet": "^0.1.0",
+        "symplify/easy-coding-standard": "^11.2"
+    }
+}

@@ -1,0 +1,5 @@
+services:
+    -
+        class: GoReply\PHPStanDoctrineCiphersweet\BlindIndexReadWritePropertiesExtension
+        tags:
+            - phpstan.properties.readWriteExtension
